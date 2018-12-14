@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="Sample SQL Test Suite" file="sqltest.sql" tests="2" assertions="2" errors="1" failures="1" skipped="0" time="0.000000">
+      <testcase name="Sample SQL Tsest" time="0.000000">
+        <error message="Zip code out of range">Zip code 139819 is not in range of valid zip codes.</error>
+      </testcase>
+      <testcase name="Insert State" classname="CustomerContact.Address"/>
+    </testsuite>
+</testsuites>
